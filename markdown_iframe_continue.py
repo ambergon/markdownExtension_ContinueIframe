@@ -62,7 +62,9 @@ class TextClass(unittest.TestCase):
 
         text = '''
 ##title
-<iframe></iframe><iframe></iframe>
+<iframe></iframe>
+<iframe></iframe>
+<iframe></iframe>
 '''
         print(md.convert(text))
 
