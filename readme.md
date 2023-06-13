@@ -1,4 +1,4 @@
-# markdown-iframe-continue
+# markdownExtension_ContinueIframe
 markdown_iframe_continueはiframeタグが連続して続く場合に改行されないようにするために作られました。
 ```
 #default
@@ -52,7 +52,7 @@ aaa<iframe></iframe>
 
 ## Usage
 ```
-md = markdown.Markdown(extensions=['markdown_iframe_continue'])
+md = markdown.Markdown(extensions=['markdownExtension_ContinueIframe'])
 ```
 
 ## Requirements
@@ -62,7 +62,7 @@ import markdown
 
 ## Installation
 ```
-pip install git+https://github.com/ambergon/markdown_iframe_continue
+pip install git+https://github.com/ambergon/markdownExtension_ContinueIframe
 ```
 
 ## License
@@ -72,4 +72,3 @@ MIT
 ambergon
 
 
-[twitter](https://twitter.com/Sc_lFoxGon)
