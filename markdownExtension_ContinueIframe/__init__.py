@@ -1,2 +1,2 @@
-from .markdownExtention_ContinueIframe import makeExtension
+from .markdownExtension_ContinueIframe import makeExtension
 __all__ = ["makeExtension"]
